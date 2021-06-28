@@ -5,6 +5,7 @@ function play(){
     song.play();
     play_pause.src = "./assets/images/pause.svg";
     play_pause.onclick = pause;
+    song.playbackRate = 1;
 }
 
 function pause(){
