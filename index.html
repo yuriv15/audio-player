@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="background">
+        <div class="container">
+                <audio id="song1" src="./assets/music/Free – LiQWYD (No Copyright Music)_160k.mp3"></audio>
+        <div class="control">
+            <img class="button" id="play_pause" onclick="play()" src="./assets/images/play.svg" alt="">
+            <img class="button" onclick="stop()" src="./assets/images/stop.svg" alt="">
+            <img class="button" onclick="fast_rewind()" src="./assets/images/fast-rewind.svg" alt="">
+            <img class="button" onclick="fast_foward()" src="./assets/images/fast-forward.svg" alt="">
+            <img class="button" onclick="replay_10()" src="./assets/images/replay-10.svg" alt="">
+            <img class="button" onclick="foward_10()" src="./assets/images/forward-10.svg" alt="">
+            <img class="button" onclick="volume_down()" src="./assets/images/volume-down.svg" alt="">
+            <img class="button" onclick="volume_up()" src="./assets/images/volume-up.svg" alt="">
+        </div>
+        <div id="credits">
+            <p>Developed by <a id="link" href="https://github.com/yuriv15">Yuri Gonçalves</a></p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
